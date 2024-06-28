@@ -41,7 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: wagcp_deploy
     env:
-      IMAGE_NAME: gcr.io/${{ secrets.GCP_PROJECT_ID }}/webacademy:latest
+      IMAGE_NAME: newlton/${{ secrets.GCP_PROJECT_ID }}/webacademy:latest
     steps:
       # Git checkout
       - name: Checkout
